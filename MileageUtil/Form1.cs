@@ -9,7 +9,7 @@ using System.IO;
 using System.Threading.Tasks;
 using System.Windows.Forms;
 
-namespace MilageExcelCounter
+namespace MileageUtil
 {
     public partial class EntryForm : Form
     {
@@ -50,7 +50,7 @@ namespace MilageExcelCounter
             }
         }
 
-        private void CreateSpreadsheet (object sender, CancelEventArgs e)
+        private void CreateSpreadsheet(object sender, CancelEventArgs e)
         {
             MessageBox.Show("Spreadsheet created.");
         }

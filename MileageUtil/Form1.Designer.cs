@@ -1,4 +1,4 @@
-﻿namespace MilageExcelCounter
+﻿namespace MileageUtil
 {
     partial class EntryForm
     {
@@ -34,7 +34,7 @@
             this.Calendar = new System.Windows.Forms.MonthCalendar();
             this.btnOpenSpreadsheet = new System.Windows.Forms.Button();
             this.FileLabel = new System.Windows.Forms.Label();
-            this.btnInsertPostcodes = new System.Windows.Forms.Button();
+            this.btnInsertData = new System.Windows.Forms.Button();
             this.btnClose = new System.Windows.Forms.Button();
             this.btnCreateSpreadsheet = new System.Windows.Forms.Button();
             this.openSpreadsheetDialogue = new System.Windows.Forms.OpenFileDialog();
@@ -92,14 +92,14 @@
             this.FileLabel.Size = new System.Drawing.Size(0, 13);
             this.FileLabel.TabIndex = 5;
             // 
-            // btnInsertPostcodes
+            // btnInsertData
             // 
-            this.btnInsertPostcodes.Location = new System.Drawing.Point(13, 323);
-            this.btnInsertPostcodes.Name = "btnInsertPostcodes";
-            this.btnInsertPostcodes.Size = new System.Drawing.Size(227, 56);
-            this.btnInsertPostcodes.TabIndex = 6;
-            this.btnInsertPostcodes.Text = "Insert Postcodes To Spreadsheet";
-            this.btnInsertPostcodes.UseVisualStyleBackColor = true;
+            this.btnInsertData.Location = new System.Drawing.Point(13, 323);
+            this.btnInsertData.Name = "btnInsertData";
+            this.btnInsertData.Size = new System.Drawing.Size(227, 56);
+            this.btnInsertData.TabIndex = 6;
+            this.btnInsertData.Text = "Insert Data To Spreadsheet";
+            this.btnInsertData.UseVisualStyleBackColor = true;
             // 
             // btnClose
             // 
@@ -159,7 +159,7 @@
             this.Controls.Add(this.btnRemoveLastPostcode);
             this.Controls.Add(this.btnCreateSpreadsheet);
             this.Controls.Add(this.btnClose);
-            this.Controls.Add(this.btnInsertPostcodes);
+            this.Controls.Add(this.btnInsertData);
             this.Controls.Add(this.FileLabel);
             this.Controls.Add(this.btnOpenSpreadsheet);
             this.Controls.Add(this.Calendar);
@@ -180,7 +180,7 @@
         private System.Windows.Forms.MonthCalendar Calendar;
         private System.Windows.Forms.Button btnOpenSpreadsheet;
         private System.Windows.Forms.Label FileLabel;
-        private System.Windows.Forms.Button btnInsertPostcodes;
+        private System.Windows.Forms.Button btnInsertData;
         private System.Windows.Forms.Button btnClose;
         private System.Windows.Forms.Button btnCreateSpreadsheet;
         private System.Windows.Forms.OpenFileDialog openSpreadsheetDialogue;
